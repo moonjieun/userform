@@ -68,3 +68,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+```
+form
+├─ src
+│  ├─ App.css
+│  ├─ App.js
+│  ├─ App.test.js
+│  ├─ components
+│  │  └─ form
+│  │     ├─ Form.jsx
+│  │     ├─ FormField.jsx
+│  │     ├─ FormSection.jsx
+│  │     └─ FormUserList.jsx
+│  ├─ hooks
+│  │  └─ useFormEvent.jsx
+│  ├─ index.css
+│  ├─ index.js
+│  ├─ logo.svg
+│  ├─ reportWebVitals.js
+│  ├─ setupTests.js
+│  └─ styles
+│     ├─ formStyles
+│     │  ├─ Form.styles.jsx
+│     │  ├─ FormField.styles.jsx
+│     │  ├─ FormSection.styles.jsx
+│     │  └─ FormUserList.styles.jsx
+│     └─ GlobalStyles.js
+└─ yarn.lock
+
+```
