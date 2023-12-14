@@ -61,18 +61,18 @@ User-0 인풋에만 값을 입력해도 User-1 인풋에는 빈값인데도, 중
 - 중복이 없는 경우 `(notDuplicateNameIdxs):`
   해당 인덱스의 `newErrorLogs`를 초기화하여 에러 메시지를 제거하는 방식으로 개선하였습니다.
   
-### ✅완성된 실행결과
-<img width="80%" src="https://velog.velcdn.com/images/moonjieun/post/b3aaa9ab-586b-4949-b19c-6a1962f52a47/image.gif"/>
-
 ### 🤔현재 idx 를 뺀 이유는?
 여기서 **`idx` = 현재 반복 중인 `name`이 `names`배열에서 몇 번째 위치에 있는지를 나타내고**  `duplicateNameIdxs` 배열과 `notDuplicateNameIdxs` 배열에는 `names` 배열에서 현재 `name`이 발견된 위치`(인덱스)`가 들어가게됩니다. 
 그럼 현재 입력한 `input`에값과 비교하게 되는데 당연히 같을 수 밖에 없기 때문에 이 또한 좋지 못한 다음과 같은 실행결과를 보여주게 됩니다.
 
-<img width="80%" src="https://github.com/moonjieun/userform/assets/102341066/a0ed4c2d-a6ca-4701-bd10-d2196ed34e75"/>
+<img width="80%" src="https://github.com/moonjieun/userform/assets/102341066/a0ed4c2d-a6ca-4701-bd10-d2196ed34e75"/>  
 
 ### ❗마지막 제출 전 개선사항
 ✍ 과제를 거의 마치고 다시 한번 문제를 확인해보니 포커스가 떠날 때 `input`밑에 에러가 뜨는것을 확인했습니다.
-이전 코드에는 `handleChange`로 `input`값이 변경될때 `setFormFields`를 해준뒤 `useEffect`의 의존성 배열안에 `formFields`를 넣어 값이 변경될 때 `duplicateCheckName()`함수를 실행시켜주는것으로 작성 -> `handleBlur`를 이용하여 해당 `input`에 **focus가 떠났을 때** `duplicateCheckName()`함수 실행하는것으로 변경하여 마무리 하였습니다!
+이전 코드에는 `handleChange`로 `input`값이 변경될때 `setFormFields`를 해준뒤 `useEffect`의 의존성 배열안에 `formFields`를 넣어 값이 변경될 때 `duplicateCheckName()`함수를 실행시켜주는것으로 작성 -> `handleBlur`를 이용하여 해당 `input`에 **focus가 떠났을 때** `duplicateCheckName()`함수 실행하는것으로 변경하여 마무리 하였습니다!  
+
+### ✅완성된 실행결과
+<img width="80%" src="https://velog.velcdn.com/images/moonjieun/post/b3aaa9ab-586b-4949-b19c-6a1962f52a47/image.gif"/>
 
 ### 🤔과제하며 고민했던 것
 - **reduce와 forEach의 사용의 고민**
