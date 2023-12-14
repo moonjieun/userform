@@ -1,3 +1,6 @@
+
+<img width="80%" src="https://github.com/moonjieun/userform/assets/102341066/d768e1aa-fe96-459d-8f18-9dc71928e755"/>
+
 ## ✨ 사용기술 및 라이브러리
 <img src="https://img.shields.io/badge/react-444444?style=for-the-badge&logo=react&logoColor=#343533"> <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white">
 ### 🤔왜 styled-component를?
