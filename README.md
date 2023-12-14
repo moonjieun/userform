@@ -18,9 +18,6 @@
 - 수정전 `handleChange`로 `input`값이 변경될때 `setFormFields`를 해준뒤 `useEffect`의 의존성 배열안에 `formFields`를 넣어 값이 변경될 때 `duplicateCheckName()`함수를 실행시켜주는것으로 작성
 - 변경후`handleBlur`를 이용하여 해당 `input`에 **focus가 떠났을 때** `duplicateCheckName()`함수 실행하는것으로 변경하여 마무리 하였습니다!  
 
-### ✅완성된 실행결과
-<img width="80%" src="https://velog.velcdn.com/images/moonjieun/post/b3aaa9ab-586b-4949-b19c-6a1962f52a47/image.gif"/>
-
 ### 🤔과제하며 고민했던 것
 - **커스텀훅으로 컴포넌트에서 UI와 비즈니스 로직을 분리하는것!**
 커스텀훅에는 다양한 이점이 있지만 그중 재사용성 때문에 고민이 있엇고
