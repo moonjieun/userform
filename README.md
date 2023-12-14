@@ -1,7 +1,7 @@
 ## ✨ 사용기술 및 라이브러리
 <img src="https://img.shields.io/badge/react-444444?style=for-the-badge&logo=react&logoColor=#343533"> <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white">
 ### 🤔왜 styled-component를?
- 저는 이번 과제에서 input에 error가 있을 시 props나 조건문을 사용하여 동적인 스타일링을 위해 사용하게 되었습니다.
+ 저는 이번 과제에서 `input`에 `errorMessage`가 있을 시 `props`나 조건문을 사용하여 동적인 스타일링을 위해 사용하게 되었습니다.
 
 ## 📌과제 하면서 발생 된 문제
 User-0 인풋에만 값을 입력해도 User-1 인풋에는 빈값인데도, 중복되었다고 뜨는 현상이 발생하였습니다.
