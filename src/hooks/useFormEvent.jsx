@@ -108,8 +108,7 @@ const useFormEvent = (setShowSubmittedData) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     /**제출시 데이터 저장 */
-    const submittedFormData = [...formFields];
-    setSubmittedData(submittedFormData);
+    setSubmittedData((prev) => [...prev, ...formFields]);
     //
     /**제출된 데이터 보여주기 */
     setShowSubmittedData(true);
